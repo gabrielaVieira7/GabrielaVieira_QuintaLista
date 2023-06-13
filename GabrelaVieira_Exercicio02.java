@@ -3,7 +3,7 @@ Autora: Gabriela
 Data: 07/06/2023
 */
 
-public class GabrielaVieira_Exercicio01 {
+public class GabrielaVieira_Exercicio02 {
     public static void main (String [] args) {
     }
     
@@ -13,32 +13,20 @@ public class GabrielaVieira_Exercicio01 {
        }
 
        void afivelar(){
-        System.out.println("Esta apertando");
+        System.out.println("Esta afivelando");
        }
 
-       void apertar(){
-        System.out.println("Esta apertando");
+       void segurar(){
+        System.out.println("Estou segurando");
        }
 
-       void apertar(){
-        System.out.println("Esta apertando");
+       void aumentarTamanho(){
+        System.out.println("Esta aumentando o tamanho");
        }
 
-       void apertar(){
-        System.out.println("Esta apertando");
+       void bater(){
+        System.out.println("Esta batendo");
        }            
 
-        }
-       }
-    
-    public void setFivela(boolean fivela) {
-        this.fivela = fivela;
-    }
-}
-}
-
-
-        
-    }
-    
+ }
 }
