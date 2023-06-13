@@ -3,14 +3,15 @@ Autora: Gabriela
 Data: 07/06/2023
 
 */
+/*Uma classe chamada "Alimento" e atribuindo 10 atributos a ela
+Autora: Gabriela
+Data: 07/06/2023
+
+*/
 public class GabrielaVieira_Exercicio01 {
     public static void main (String [] args) {
     }
-    
-public class GabrielaVieira_Exercicio01 {
-    public static void main (String [] args) {
-    }
-    
+
     class Alimento {
        String nome, textura, gosto, validade, forma;
        String[] cheiro;
@@ -18,7 +19,7 @@ public class GabrielaVieira_Exercicio01 {
        int quantidade;
        boolean vegano, lactose;        
     
-        // Construtor
+        // Método Construtor
         public Alimento(String nome, String textura, String forma, double preco, int quantidade, boolean vegano,
                        boolean lactose, String validade, String gosto,
                         String[] cheiro) {
