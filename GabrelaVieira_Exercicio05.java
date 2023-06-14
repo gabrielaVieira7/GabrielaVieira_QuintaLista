@@ -1,27 +1,27 @@
-/*Uma classe atribua a ela, no mínimo 10 atributos, 10 metódos e 1 metódo construtor
+/*Crie uma classe atribua a ela, no mínimo 10 atributos, 10 metódos e 1 metódo construtor
 Autora: Gabriela
 Data: 07/06/2023
 */
 
 public class GabrelaVieira_Exercicio05 {
     public void main (String [] args) {
+    }
 
-        public class Exemplo {
-    private int numero1;
-    private int numero2;
-    private String texto;
-    private double valor;
-    private boolean status;
-    private char caractere;
-    private int[] numeros;
-    private String[] nomes;
-    private Object objeto;
-    private static int contador;
+    //Criand os 10 atributos
+        class Comida {
+    int quantidade, Numerocadeiras, Numeromesas;
+    String Nomesprofessores;
+    double valor;
+    boolean es;
+    char caractere;
+    int[] numeros;
+    String[] nomes;
+    Object objeto;
 
-    public Exemplo(int numero1, int numero2, String texto, double valor, boolean status, char caractere, int[] numeros, String[] nomes, Object objeto) {
-        this.numero1 = numero1;
-        this.numero2 = numero2;
-        this.texto = texto;
+    public Comida(int numero1, int numero2, String texto, double valor, boolean status, char caractere, int[] numeros, String[] nomes, Object objeto) {
+        this.Numeroalunos = numero1;
+        this.Numerocadeiras = numero2;
+        this.Numeromesas = texto;
         this.valor = valor;
         this.status = status;
         this.caractere = caractere;
@@ -31,79 +31,79 @@ public class GabrelaVieira_Exercicio05 {
         contador++;
     }
 
-    public int getNumero1() {
+    int getNumero1() {
         return numero1;
     }
 
-    public void setNumero1(int numero1) {
+    void setNumero1(int numero1) {
         this.numero1 = numero1;
     }
 
-    public int getNumero2() {
+    int getNumero2() {
         return numero2;
     }
 
-    public void setNumero2(int numero2) {
+    void setNumero2(int numero2) {
         this.numero2 = numero2;
     }
 
-    public String getTexto() {
+    String getTexto() {
         return texto;
     }
 
-    public void setTexto(String texto) {
+    void setTexto(String texto) {
         this.texto = texto;
     }
 
-    public double getValor() {
+    double getValor() {
         return valor;
     }
 
-    public void setValor(double valor) {
+    void setValor(double valor) {
         this.valor = valor;
     }
 
-    public boolean isStatus() {
+    boolean isStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    void setStatus(boolean status) {
         this.status = status;
     }
 
-    public char getCaractere() {
+    char getCaractere() {
         return caractere;
     }
 
-    public void setCaractere(char caractere) {
+    void setCaractere(char caractere) {
         this.caractere = caractere;
     }
 
-    public int[] getNumeros() {
+    int[] getNumeros() {
         return numeros;
     }
 
-    public void setNumeros(int[] numeros) {
+    void setNumeros(int[] numeros) {
         this.numeros = numeros;
     }
 
-    public String[] getNomes() {
+    String[] getNomes() {
         return nomes;
     }
 
-    public void setNomes(String[] nomes) {
+    void setNomes(String[] nomes) {
         this.nomes = nomes;
     }
 
-    public Object getObjeto() {
+    Object getObjeto() {
         return objeto;
     }
 
-    public void setObjeto(Object objeto) {
+    void setObjeto(Object objeto) {
         this.objeto = objeto;
     }
 
-    public static int getContador() {
+    int getContador() {
         return contador;
     }
 
@@ -150,6 +150,3 @@ public class GabrelaVieira_Exercicio05 {
 
        
     }
-
-    
-}
