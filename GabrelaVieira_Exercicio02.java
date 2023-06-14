@@ -1,7 +1,10 @@
-/*Uma classe chamada "Cinto" que tenha 5 metódos
+/*Uma classe chamada "Cinto" que tenha 5 métodos
 Autora: Gabriela
 Data: 12/06/2023
 */
+public class GabrielaVieira_Exercicio02 {
+    public static void main (String [] args) {
+    }
 
     class Cinto{
        void apertar(){
@@ -25,3 +28,4 @@ Data: 12/06/2023
        }            
 
  }
+}
