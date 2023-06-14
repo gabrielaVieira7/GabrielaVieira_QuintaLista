@@ -1,12 +1,8 @@
 /*Uma classe chamada "Cinto" que tenha 5 metódos
 Autora: Gabriela
-Data: 07/06/2023
+Data: 12/06/2023
 */
 
-public class GabrielaVieira_Exercicio02 {
-    public static void main (String [] args) {
-    }
-    
     class Cinto{
        void apertar(){
         System.out.println("Esta apertando");
@@ -29,4 +25,3 @@ public class GabrielaVieira_Exercicio02 {
        }            
 
  }
-}
