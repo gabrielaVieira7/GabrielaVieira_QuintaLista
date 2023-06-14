@@ -1,13 +1,8 @@
 /*Uma classe chamada "Alimento" e atribuindo 10 atributos a ela
 Autora: Gabriela
-Data: 07/06/2023
-
+Data: 12/06/2023
 */
-/*Uma classe chamada "Alimento" e atribuindo 10 atributos a ela
-Autora: Gabriela
-Data: 07/06/2023
 
-*/
 public class GabrielaVieira_Exercicio01 {
     public static void main (String [] args) {
     }
