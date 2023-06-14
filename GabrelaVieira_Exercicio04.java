@@ -3,40 +3,37 @@ Autora: Gabriela
 Data: 07/06/2023
 */
 
-public class GabrelaVieira_Exercicio04 {
+public class GabrielaVieira_Exercicio04 {
     public static void main (String [] args) {
-        public class Vovoh {
-    private String nome;
-    private int idade;
-
-    // Método construtor
-    public Vovoh(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
+       
     }
 
-    // Getters e Setters
-    public String getNome() {
-        return nome;
-    }
+   class Vovoh {
+       String nom;
+       int ida;
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+        // Usando o método construtor
+        Vovoh(String nom, int ida) {
+            this.nom = nom;
+            this.ida = ida;
+        }
 
-    public int getIdade() {
-        return idade;
-    }
+        // Getters e Setters
+        String getNom() {
+            return nom;
+        }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
+        void setNome(String nom) {
+            this.nom = nom;
+        }
 
-    // Outros métodos da classe
-    public void saudacao() {
-        System.out.println("Olá, sou a vovó " + nome + " e tenho " + idade + " anos.");
-    }
-}
+        int getIda() {
+            return ida;
+        }
 
+        void setIda(int ida) {
+            this.ida = ida;
+        }
+       
     }
 }
